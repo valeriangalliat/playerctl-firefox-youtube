@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Controller",
+  "version": "1.0",
+  "background": {
+    "scripts": ["node_modules/socket.io-client/dist/socket.io.js", "background.js"]
+  },
+  "permissions": [
+    "*://*.youtube.com/*",
+    "tabs"
+  ]
+}

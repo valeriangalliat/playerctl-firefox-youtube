@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mpris-service": "^1.1.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  },
+  "scripts": {
+    "lint": "standard"
+  }
+}
